@@ -38,7 +38,7 @@ export const ImageEditor = (props) => {
       ? props.message
       : {
           url: "stacked-waves.svg",
-          name: "PicProse",
+          name: "Jcover",
           avatar: "default-author.png",
           profile: "default",
           downloadLink: "",
