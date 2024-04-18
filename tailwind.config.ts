@@ -27,6 +27,7 @@ const config: Config = {
         alibaba: ["var(--font-alibaba)"],
         smiley: ["var(--font-smiley)"],
         wujiehei: ["var(--font-wujiehei)"],
+        notosc: ["var(--font-notosc)"],
       },
       aspectRatio: {
         '2/1': '2 / 1',

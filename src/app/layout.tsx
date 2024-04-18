@@ -20,9 +20,15 @@ const smileyFont = localFont({
 })
 
 const wujieheiFont = localFont({
-  src: 'fonts/NotoSerifSC-Black.otf',
+  src: 'fonts/WuJieHei.ttf',
   display: 'swap',
   variable: '--font-wujiehei',
+})
+
+const notoscFont = localFont({
+  src: 'fonts/NotoSerifSC-Black.otf',
+  display: 'swap',
+  variable: '--font-notosc',
 })
 
 const kingsoftFont = localFont({
@@ -73,7 +79,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${openSans.variable} ${robotoMono.variable} ${ankeLatin.variable} ${wujieheiFont.variable} ${smileyFont.variable} ${kingsoftFont.variable} ${xinYiGuanHeiFont.variable} ${alibabaFont.variable} font-sans light`}>
+    <html lang="en" className={`${openSans.variable} ${robotoMono.variable} ${ankeLatin.variable} ${wujieheiFont.variable} ${smileyFont.variable} ${notoscFont.variable} ${kingsoftFont.variable} ${xinYiGuanHeiFont.variable} ${alibabaFont.variable} font-sans light`}>
 
       <body>
         <Providers>

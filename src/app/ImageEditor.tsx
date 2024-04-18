@@ -129,7 +129,7 @@ export const ImageEditor = (props) => {
             >
               <h1
                 className={
-                  " leading-tight text-center text-5xl font-bold  text-white " +
+                  " leading-tight text-center text-6xl font-bold  text-white " +
                   font
                 }
               >
@@ -138,7 +138,7 @@ export const ImageEditor = (props) => {
               <div className="flex flex-col items-center pt-10  ">
                 <h2
                   className={
-                    "text-xl font-semibold text-left text-white " + font
+                    "text-2xl font-semibold text-left text-white " + font
                   }
                 >
                   {getAuthor()}

@@ -235,8 +235,13 @@ export const RightPropertyPanel = (props) => {
       description: "The largest land animal",
     },
     {
-      label: "Font-Noto Sans",
+      label: "Font-无界黑",
       value: "font-wujiehei",
+      description: "The largest land animal",
+    },
+    {
+      label: "Font-NotoSans",
+      value: "font-notosc",
       description: "The largest land animal",
     },
     {
