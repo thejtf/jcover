@@ -67,8 +67,8 @@ const ankeLatin = Anek_Latin({
  
 export const metadata: Metadata = {
  
-  title: " PicProse - Better Cover Image Generator Tools",
-  description: "PicProse is a better cover image generator tool for Medium, YouTube, BiliBili, Blog and more.",
+  title: " Jcover - Better Cover Image Generator Tools",
+  description: "Jcover is a better cover image generator tool for Medium, YouTube, BiliBili, Blog and more.",
 };
 
 export default function RootLayout({children}: { children: React.ReactNode }) {
